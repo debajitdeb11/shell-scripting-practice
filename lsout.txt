@@ -1,0 +1,9 @@
+total 56
+-rw-r--r--@ 1 debajitdeb  staff  782 Jul  9 01:26 README.md
+-rw-r--r--  1 debajitdeb  staff   29 Jul  9 02:01 date.txt
+-rw-r--r--  1 debajitdeb  staff  109 Jul  9 00:22 file1.sh
+-rwxr-xr-x  1 debajitdeb  staff   31 Jul  9 00:16 hello.sh
+-rw-r--r--  1 debajitdeb  staff  152 Jul  9 00:49 interactiveshell.sh
+-rw-r--r--  1 debajitdeb  staff   95 Jul  9 00:52 interactiveshell2.sh
+-rw-r--r--  1 debajitdeb  staff    0 Jul  9 02:01 lsout.txt
+-rw-r--r--  1 debajitdeb  staff   24 Jul  9 01:04 positionalarguments.sh
