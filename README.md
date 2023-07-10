@@ -6,6 +6,7 @@
 | `echo args...` | `echo` used to print the arguments(`args...`) |
 | `read args...` | Command used to take input/args from the user |
 | `tr '[:lower:]' '[:upper:]'` | To convert text from lowercase to uppercase. Here the `lower` can `upper` can be interchange |
+| `local` | Used to make variables inside a function scoped locally |
 
 ---
 
@@ -52,9 +53,9 @@ If output is 0 - Meaning the last command ran successfully
 ```
 syntax:
 
-    if [ input = "debajit" ] then;
+    if [ input = "debajit" ]; then
         echo "Boss!"
-    elif [ input = "bishal" ] then;
+    elif [ input = "bishal" ]; then
         echo "Not Boss, Still let you in"
     else
         echo "Invalid user"
@@ -137,3 +138,14 @@ echo "--- Thank You! ---"
     echo "Total Sum = $SUM"
 
     ```
+
+### Functions
+
+```
+#!/bin/bash
+fun() {
+    ...statement
+}
+
+fun
+```
